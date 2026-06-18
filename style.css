@@ -175,16 +175,12 @@ body{
     transition:.2s;
 }
 
-/* OFF = UP */
-
-.switch.off .switch-btn{
+/* Default OFF */
+.switch-btn{
     top:42%;
-    transform:translate(-50%,-50%);
 }
 
-/* ON = DOWN */
-
-.switch .switch-btn{
+/* ON */
+.switch.on .switch-btn{
     top:58%;
-    transform:translate(-50%,-50%);
 }
