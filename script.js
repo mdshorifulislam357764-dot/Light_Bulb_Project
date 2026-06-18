@@ -3,5 +3,5 @@ const switchBtn = document.getElementById("switch");
 
 switchBtn.addEventListener("click", () => {
     bulb.classList.toggle("on");
-    switchBtn.classList.toggle("off");
+    switchBtn.classList.toggle("on");
 });
